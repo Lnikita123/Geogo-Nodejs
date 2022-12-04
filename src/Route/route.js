@@ -40,18 +40,6 @@ router.post("/createOrder",orderController.createOrder)
 
 
 
-// router.post("/books",Middleware.loginCheck, slotController.createBook)//1
-// router.post("/books/:bookId/review", eventController.createReviewByBookId)//1
-// router.put("/books/:bookId/review/:reviewId", eventController.updateReviews)
-
-//**************************************GET API*****************************************************/
-
-// router.get("/books", Middleware.loginCheck, slotController.getBooks)//2
-// router.get("/books/:bookId",  Middleware.loginCheck,slotController.getBookDetailsById)//3
-// router.put("/books/:bookId",  Middleware.loginCheck,slotController.updateDetails)//3
-// router.delete("/books/:bookId",  Middleware.loginCheck,slotController.deleteBookById)//3
-// router.delete("/books/:bookId/review/:reviewId", eventController.deleteReview)
-
 
 
 
